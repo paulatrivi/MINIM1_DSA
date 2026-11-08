@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class PlanVuelo {
-    private String IDdron;
-    private String IDpiloto;
+    private String iddron;
+    private String idpiloto;
     private LocalDateTime fecha;
     private double duracion;
     private List<Position> coordenadas;
@@ -16,27 +16,28 @@ public final class PlanVuelo {
     }
 
     public PlanVuelo(String droneId, String pilotId, LocalDateTime fecha, double durationHours, List<Position> positions) {
-        this.IDdron = droneId;
-        this.IDpiloto = pilotId;
+        this.iddron = droneId;
+        this.idpiloto = pilotId;
         this.fecha = fecha;
         this.duracion = durationHours;
         this.coordenadas = new ArrayList<>(positions);
     }
 
-    public String getIDdron() {
-        return IDdron;
+    //setters y getters
+    public String getIddron() {
+        return iddron;
     }
 
-    public void setIDdron(String IDdron) {
-        this.IDdron = IDdron;
+    public void setIddron(String iddron) {
+        this.iddron = iddron;
     }
 
-    public String getIDpiloto() {
-        return IDpiloto;
+    public String getIdpiloto() {
+        return idpiloto;
     }
 
-    public void setIDpiloto(String IDpiloto) {
-        this.IDpiloto = IDpiloto;
+    public void setIdpiloto(String idpiloto) {
+        this.idpiloto = idpiloto;
     }
 
     public LocalDateTime getFecha() {
@@ -74,7 +75,7 @@ public final class PlanVuelo {
 
     @Override
     public String toString() {
-        return "FlightPlan{droneId=" + IDdron + ", pilotId=" + IDpiloto
+        return "FlightPlan{droneId=" + iddron + ", pilotId=" + idpiloto
                 + ", start=" + fecha + ", durationHours=" + duracion
                 + ", positions=" + coordenadas + "}";
     }

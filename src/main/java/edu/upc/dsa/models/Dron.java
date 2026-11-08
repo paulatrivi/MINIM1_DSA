@@ -27,41 +27,55 @@ public class Dron {
 
     }
 
+
+    // Setters y Gets
     public String getId() {
-        return id; }
+        return id;
+    }
 
     public void setId(String id) {
-        this.id = id; }
+        this.id = id;
+    }
 
     public String getNombre() {
-        return nombre; }
+        return nombre;
+    }
 
     public void setNombre(String nombre) {
-        this.nombre = nombre; }
+        this.nombre = nombre;
+    }
 
     public String getFabricante() {
-        return fabricante; }
+        return fabricante;
+    }
 
     public void setFabricante(String fabricante) {
-        this.fabricante = fabricante; }
+        this.fabricante = fabricante;
+    }
 
     public String getModelo() {
-        return modelo; }
+        return modelo;
+    }
 
     public void setModelo(String modelo) {
-        this.modelo = modelo; }
+        this.modelo = modelo;
+    }
 
     public double getHorasVuelo() {
-        return HorasVuelo; }
+        return HorasVuelo;
+    }
 
     public void setHorasVuelo(double horasVuelo) {
-        this.HorasVuelo = horasVuelo; }
+        this.HorasVuelo = horasVuelo;
+    }
 
     public boolean isMantenimiento() {
-        return Mantenimiento; }
+        return Mantenimiento;
+    }
 
     public void setMantenimiento(boolean mantenimiento) {
-        this.Mantenimiento = mantenimiento; }
+        this.Mantenimiento = mantenimiento;
+    }
 
     public List<PlanVuelo> getPlanesVuelo() {
         return planesVuelo;
@@ -75,7 +89,7 @@ public class Dron {
         this.planesVuelo.add(planVuelo);
     }
 
-    @Override
+    @Override //Siempre esta estructura
     public String toString() {
         return "Drone{id=" + id + ", nombre=" + nombre + ", fabricante=" + fabricante
                 + ", modelo=" + modelo + ", HorasVuelo=" + HorasVuelo

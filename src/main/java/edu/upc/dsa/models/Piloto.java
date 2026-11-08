@@ -22,28 +22,36 @@ public class Piloto {
     }
 
     public String getId() {
-        return id; }
+        return id;
+    }
 
     public void setId(String id) {
-        this.id = id; }
+        this.id = id;
+    }
 
     public String getName() {
-        return name; }
+        return name;
+    }
 
     public void setName(String name) {
-        this.name = name; }
+        this.name = name;
+    }
 
     public String getSurname() {
-        return surname; }
+        return surname;
+    }
 
     public void setSurname(String surname) {
-        this.surname = surname; }
+        this.surname = surname;
+    }
 
     public double getHorasVuelo() {
-        return HorasVuelo; }
+        return HorasVuelo;
+    }
 
     public void setHorasVuelo(double horasVuelo) {
-        this.HorasVuelo = horasVuelo; }
+        this.HorasVuelo = horasVuelo;
+    }
 
     public List<PlanVuelo> getPlanesVuelo() {
         return planesVuelo;
@@ -57,7 +65,7 @@ public class Piloto {
         this.planesVuelo.add(planVuelo);
     }
 
-    @Override
+    @Override //Siempre igual estructura
     public String toString() {
         return "Piloto{id=" + id + ", name=" + name + ", surname=" + surname
                 + ", HorasVuelo=" + HorasVuelo + "}";

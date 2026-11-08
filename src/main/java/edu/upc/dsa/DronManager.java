@@ -1,8 +1,6 @@
 package edu.upc.dsa;
 
-import edu.upc.dsa.models.Dron;
-import edu.upc.dsa.models.Piloto;
-import edu.upc.dsa.models.PlanVuelo;
+import edu.upc.dsa.models.*;
 
 import java.util.List;
 
