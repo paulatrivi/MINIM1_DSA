@@ -1,22 +1,26 @@
 # edu.upc.dsa.Manager
 # MINIM1
 # -----------------------------
-# VERSION 0
-Fet fins ara
+# VERSION 0 (5/11/26)
 
-- Classes Dron, Piloto, PlanVuelo i Position.
-- Interfície DroneManager.
-- Implementació DroneManagerImpl amb Singleton.
-- Estructures de dades: HashMap, ArrayList i Queue.
-- Gestió de manteniment i plans de vol.
-- Logs amb LOG4J.
+- Clases Dron, Piloto, PlanVuelo Y Position.
+- Interface DronManager.
+- Implementación DronManagerImpl con Singleton.
+- Estructuras de datos: HashMap, ArrayList i Queue.
+- Gestión de mantenimento y planes de vuelo.
+- Logs con LOG4J.
+- Verificacion de los test con JUnit.
 
-Pendent
+# -----------------------------
+# VERSION FINAL (8/11/26)
 
-- Fer i comprovar els tests JUnit.
-- Implementar el servei REST.
-- Comprovar que tot funciona correctament.
+- Implementación REST con Jersey i Grizzly.
+- Documentación i pruebas de los endpoints con Swagger.
+- Operaciones GET, POST y PUT 
+- Gestión de excepciones y códigos de resposta HTTP.
+- Comprovación del funcionamiento de los endpoints REST.
 
+# -----------------------------
 
 
 
